@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Gerous
+title: Lars Geluk
 description: Gerous is a modern portfolio Jekyll theme
 logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
 logo_dark: "/images/logo-dark.svg"
@@ -15,19 +15,19 @@ menu_settings:
       url: "/"
     - title: "Projects"
       url: "/projects/"
-    - title: "Posts"
-      url: "/posts/"
-    - title: "Resources"
-      submenu:
-      - url: "/posts/the-psychology-of-mobile-app-colors-influencing-user-perception"
-        title: "News"
-      - url: "/posts/gamifying-the-user-experience-strategies-beyond-mobile-games"
-        title: "Games"
-      - url: "/posts/harmonizing-aesthetics-and-functionality-in-ux-ui-mobile-design"
-        title: "Mobile"
-      - url: "/elements/"
-        title: "Elements"
-    - title: "About Me"
+#    - title: "Posts"
+#      url: "/posts/"
+    # - title: "Resources"
+    #   submenu:
+    #   - url: "/posts/the-psychology-of-mobile-app-colors-influencing-user-perception"
+    #     title: "News"
+    #   - url: "/posts/gamifying-the-user-experience-strategies-beyond-mobile-games"
+    #     title: "Games"
+    #   - url: "/posts/harmonizing-aesthetics-and-functionality-in-ux-ui-mobile-design"
+    #     title: "Mobile"
+    #   - url: "/elements/"
+    #     title: "Elements"
+    - title: "About me"
       url: "/about/"
 
 # Call to action button
@@ -40,20 +40,20 @@ cta_button:
 #-------------------------------
 # Author Settings
 author:
-  author_name: "Daryl Mercer"
-  author_avatar: "/images/01-1.jpg"
+  author_name: "Lars Geluk"
+  author_avatar: "/images/portrait.jpg"
 
 
 #-------------------------------
 # Hero Settings
 hero:
   enable: true
-  hero_title: I'm an expert user experience strategist and mobile developer.
-  hero_description: Leveraging my expertise, I'm here to collaborate with you on crafting design solutions that transcend expectations. Let's embark on a journey of innovation together!
+  hero_title: I'm a physicist and visual artist.
+  hero_description: Fascinated by topics ranging from quantum physics to creative coding, I love exploring the intersection of art and science. In my artistic practice, I try to show the beauty of science to inspire curiosity and connection, aiming to make complex topics feel more accessible.
 
 # Hero Logos
 hero_logos:
-  enable: true
+  enable: false
 
 hero_logo_image:
   - alt: "Apple Logo"
@@ -81,7 +81,7 @@ hero_logo_image:
 #-------------------------------
 # Slider Featured Settings
 featured:
-  enable: true
+  enable: false
   featured_title: Selected Work
 
 
@@ -96,7 +96,7 @@ projects:
 #-------------------------------
 # Testimonials Section Settings
 testimonials:
-  enable: true
+  enable: false
   testimonials_intro: Don't take my word for it
   testimonials_title: See what our happy clients say...
   testimonials_info: Join over <b>10K+</b> Prefessionals
@@ -130,7 +130,7 @@ testimonial_items:
 #-------------------------------
 # Faq (Frequently asked questions) Settings
 faq:
-  enable: true
+  enable: false
   faq_title: Frequently asked questions
   faq_intro: Need some answers?
   faq_items:
@@ -151,7 +151,7 @@ faq:
 #-------------------------------
 # Blog Section Settings
 blog:
-  enable: true
+  enable: false
   blog_intro: What’s new?
   blog_title: Latest from blog
 
@@ -159,7 +159,7 @@ blog:
 #-------------------------------
 # Author Section Settings
 author_section:
-  enable: true
+  enable: false
   author_section_title: "Hi there 👋 ! Welcome to my fun zone. I'm Daryl, the playmaker of ideas."
   author_section_description: When I'm not crafting digital wonders, you can catch me sipping on coffee, cruising around on my bike, diving into games, and grooving to some tunes. Let's connect, share stories, and make this digital space our cozy corner. Cheers to good vibes and creative adventures!
   author_section_image: "/images/01.jpg"
@@ -178,17 +178,18 @@ footer_menu__settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Posts'
-      url: '/posts/'
+    # - title: 'Posts'
+    #   url: '/posts/'
     - url: '/about/'
       title: 'About Me'
 
 # Social Links
 social:
-- {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
-- {icon: "fa-brands fa-tiktok", name: "Tiktok", link: "https://www.tiktok.com"}
-- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
+# - {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://facebook.com"}
+# - {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
+# - {icon: "fa-brands fa-tiktok", name: "Tiktok", link: "https://www.tiktok.com"}
+- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com/larsgeluk"}
+- {icon: "fa-brands fa-linkedin-in", name: "LinkedIn", link: "https://linkedin.com/in/lars-geluk-63446b165"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
 # Other icons can be found at https://fontawesome.com/icons
@@ -197,7 +198,7 @@ social:
 #-------------------------------
 # Newsletter Settings
 mailchimp:
-  enable: true
+  enable: false
   mailchimp_title: Stay inspired weekly 📬 Your friendly dose of tips & insights!
   mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
   mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
@@ -207,7 +208,7 @@ mailchimp:
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your form_id
+  email: https://formspree.io/f/xqaylbog # Add your form_id
   description: Gerous comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
 
 # NOTE
