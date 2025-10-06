@@ -23,7 +23,11 @@ description: In my artistic practice, I try to show the beauty of science to ins
         {% for project in site.projects reversed %}
         <article class="project col col-4 col-d-6 col-t-12">
           <div class="project__content">
-            <a href="{{ project.url }}" class="project__image">
+            {% if project.external_url %}
+              <a href="{{ project.external_url }}" class="project__image" target="_blank" rel="noopener">
+            {% else %}
+              <a href="{{ project.url }}" class="project__image">
+            {% endif %}
               {% if project.image and project.video_embed %}
               <div class="video-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -38,7 +42,11 @@ description: In my artistic practice, I try to show the beauty of science to ins
               <div class="project__label">{{ project.label }}</div>
               {% endif %}
               {% if project.title %}
-              <h3 class="project__title"><a class="project__link" href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+                {% if project.external_url %}
+                  <h3 class="project__title"><a class="project__link" href="{{ project.external_url }}" target="_blank" rel="noopener">{{ project.title }}</a></h3>
+                {% else %}
+                  <h3 class="project__title"><a class="project__link" href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+                {% endif %}
               {% endif %}
             </div>
           </div>
