@@ -1,18 +1,28 @@
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
 
-<video
+<!-- <video
 autoplay
 muted
 id="home-video"
 >
 <source src="{{ '/videos/larsgeluk_waves_web.mp4' | relative_url }}" type="video/mp4">
 Your browser does not support the video tag.
-</video>
+</video> -->
 
 
 
 <section class="hero">
+  <video
+    autoplay
+    muted
+    id="home-video"
+    playsinline
+  >
+    <source src="{{ '/videos/larsgeluk_waves_web.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
   <div class="container">
     <div class="row">
       <div class="col col-12">
