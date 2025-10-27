@@ -2,12 +2,17 @@
 title: Emergence Delft
 date: 2023-01-01 16:00:00 +0300
 label: 2023 TUDelft Dream Hall
-image: 'images\emergence_delft\EM-1.jpg'
+image: 'images\emergence_delft\EM-1.png'
 featured:
 ---
 
+As Emergence Delft, art and tech students collaborate on the development of new media art using the expertise of both the TU Delft and nearby art schools. Our artworks aim to spark dialogue about complex technologies in our increasingly digital society.
 
-Test
+Together with Angela Hanna, Suus Bout, and Nora Overhuijs I co-founded and established Emergence Delft as the TUDelft's official art & tech student team. For me, this included creating main parts of Emergence's visual identity and branding: its name and logo. The logo represents the concept of emergence, when the whole becomes more than the sum of its parts, and is depicted by a (graphic) mathematical expression.
+
+At Emergence Delft, I continue to be involved as the treasurer on the foundation’s board.
+
+More to come.. Work in progress.
 
 <!-- <div class="gallery-box">
   <div class="gallery">

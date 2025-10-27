@@ -7,9 +7,10 @@ featured:
 ---
 
 
-Ode to the FFT x Semiosis is an immersive installation that dives into the world of signals. The combination of two artworks creates a multi sensory experience, where projections made with the fast fourier transform and a spatial 4DSOUND installation come together. It was exhibited during the Emergence Festival Rotterdam on June 25th 2025.
+Ode to the FFT x Semiosis is an immersive installation that dives into the world of signals. The combination of two artworks creates a multi sensory experience, where projections made using the fast fourier transform and a spatial 4DSOUND installation come together. It was exhibited during the Emergence Festival Rotterdam on June 25th 2025.
 
-The spatial soundscape Semiosis, made by Sem Wevers and Max Peters, is a narrative about our relation to non-human intelligence in the ocean. Cetaceans have complex social structures, names and even language. How do we relate to these lifeforms? And what is our role in their existence? 
+"Semiosis", a spatial soundscape created by Sem Wevers and Max Peters, reflects on our relationship with non-human intelligence in the ocean, such as whales. These cetaceans possess complex social structures, individual names, and even forms of language. How do we relate to these lifeforms, and what role do we play in their existence?
+
 
 The projections are an iteration of “Ode to the Fast Fourier Transform”, an abstract animation in which form and color merge and evaporate in waves, trying to visualize the hidden and complex digital world around us. 
 
@@ -21,10 +22,15 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
   <!-- <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em> -->
 </div>
 
-<video controls width="100%">
+More to come.. Work in progress.
+
+
+
+
+<!-- <video controls width="100%">
   <source src="/videos/EFR1_web.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video> -->
 
 <!-- 
 ![iPad](/images/EFR/EFR1.png)
