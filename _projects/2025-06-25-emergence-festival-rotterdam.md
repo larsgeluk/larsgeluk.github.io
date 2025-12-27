@@ -49,11 +49,11 @@ More to come.. Work in progress.
       </video>
     </div>
     <div class="video-gallery-vertical__gallery">
-      <div class="video-gallery-vertical__image">
-        <img src="/images/EFR/EFR1.png" loading="lazy" alt="Gallery image">
+      <div class="gallery">
+        <img src="/images/EFR/EFR3.png" loading="lazy" alt="Project">
       </div>
-      <div class="video-gallery-vertical__image">
-        <img src="/images/EFR/EFR3.png" loading="lazy" alt="Gallery image">
+      <div class="gallery">
+        <img src="/images/EFR/EFR1.png" loading="lazy" alt="Project">
       </div>
     </div>
   </div>

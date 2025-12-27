@@ -88,6 +88,8 @@
 /* Vertical video with gallery side-by-side */
 .video-gallery-vertical-box {
   margin: 32px -90px 32px -90px;
+  display: flex;
+  justify-content: center;
 
   @media (max-width: $desktop) {
     margin: 32px 0;
@@ -98,8 +100,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  max-width: 100%;
+  width: 100%;
   padding: 0 90px;
 
   @media (max-width: $desktop) {
@@ -119,6 +123,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-height: 100vh;
 
     @media (max-width: $desktop) {
       border-radius: 16px;
@@ -133,21 +139,24 @@
   }
 
   .video-gallery-vertical__gallery {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 12px;
-    align-content: flex-start;
+    height: 100%;
+    width: 100%;
 
     @media (max-width: $desktop) {
       gap: 10px;
     }
 
     @media (max-width: $tablet) {
-      grid-template-columns: repeat(2, 1fr);
+      flex-direction: row;
+      height: auto;
       gap: 12px;
     }
 
     .video-gallery-vertical__image {
+      flex: 1;
       border-radius: 22px;
       overflow: hidden;
       background: var(--background-color);
