@@ -9,6 +9,23 @@ featured:
 
 Ode to the FFT x Semiosis is an immersive installation that dives into the world of signals. The combination of two artworks creates a multi sensory experience, where projections made using the fast fourier transform and a spatial 4DSOUND installation come together. It was exhibited during the Emergence Festival Rotterdam on June 25th 2025.
 
+<div class="gallery-box">
+  <div class="video-gallery-vertical">
+    <div class="video-gallery-vertical__gallery">
+      <div class="gallery">
+        <img src="/images/EFR/EFR1.png" loading="lazy" alt="Project">
+      </div>
+    </div>
+    <div class="video-gallery-vertical__video" style="aspect-ratio: 1 / 1;">
+      <video controls>
+        <source src="/videos/EFR2_2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+<div style="height: 30px;"></div> 
+ 
 
 "Semiosis" is a spatial soundscape created by Sem Wevers and Max Peters. It is made to reflect on our relationship with non-human intelligence in the ocean like whales. These cetaceans possess complex social structures, individual names, and even forms of language. How do we relate to these lifeforms, and what role do we play in their existence?
 
@@ -22,23 +39,11 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
 </div> -->
 
 
-  <div class="video-gallery-vertical-box">
-    <div class="video-gallery-vertical">
-      <div class="video-gallery-vertical__gallery">
-        <div class="gallery">
-          <img src="/images/EFR/EFR1.png" loading="lazy" alt="Project">
-        </div>
-      </div>
-      <div class="video-gallery-vertical__video" style="aspect-ratio: 1 / 1;">
-        <video controls>
-          <source src="/videos/EFR2_2.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-  </div>
 
 
-<!-- <div style="height: 16px;"></div>  -->
+
+
+<div style="height: 16px;"></div> 
  
 
 
@@ -47,6 +52,7 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
     <iframe src="..." ...></iframe>
   </div>
 </div> -->
+<div class="full-width-section" style="background-color: black; padding: 0;">
 
 <div class="video-gallery-vertical-box">
   <div class="video-gallery-vertical">
@@ -65,6 +71,7 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <!-- 

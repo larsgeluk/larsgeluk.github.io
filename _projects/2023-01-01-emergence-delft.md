@@ -20,15 +20,9 @@ At Emergence Delft, I continue to be involved as the treasurer on the foundation
 
 More to come.. Work in progress.
 
-<!-- <div class="gallery-box">
+<div class="gallery-box">
   <div class="gallery">
-    <img src="/images/project-example-2.jpg" loading="lazy" alt="Project">
-    <img src="/images/project-example-3.jpg" loading="lazy" alt="Project">
-    <img src="/images/project-example-4.jpg" loading="lazy" alt="Project">
+    <img src="/images/emergence_delft/Dreamhall_Management_3.png" loading="lazy" alt="Project">
   </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-
-![iPad](/images/project-example-1.jpg)
-*Photo by [Balázs Kétyi](https://unsplash.com/@balazsketyi) on [Unsplash](https://unsplash.com/)* -->
