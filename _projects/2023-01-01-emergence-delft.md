@@ -8,7 +8,13 @@ featured:
 
 As Emergence Delft, art and tech students collaborate on the development of new media art using the expertise of both the TU Delft and nearby art schools. Our artworks aim to spark dialogue about complex technologies in our increasingly digital society.
 
-Together with Angela Hanna, Suus Bout, and Nora Overhuijs I co-founded and established Emergence Delft as the TUDelft's official art & tech student team. For me, this included creating main parts of Emergence's visual identity and branding: its name and logo. The logo represents the concept of emergence, when the whole becomes more than the sum of its parts, and is depicted by a (graphic) mathematical expression.
+Together with Angela Hanna, Suus Bout, and Nora Overhuijs I co-founded and established Emergence Delft as the TUDelft's official art & tech student team to confront the growing <b>blackboxing of technology</b>, where technology's increasing complexity is making it less transparent. As a result, people lose touch with the underlying principles shaping the tools they use every day, making it harder to reflect and engage with them critically. 
+
+> The way scientific and technical work is made invisible by its own success. When a machine runs efficiently, when a matter of fact is settled, one need focus only on its inputs and outputs and not on its internal complexity. Thus, paradoxically, the more science and technology succeed, the more opaque and obscure they become. - Bruno Latour
+
+My contributions included creating main parts of Emergence's (visual) identity and branding: its name and logo. The logo represents the concept of emergence, when the whole becomes more than the sum of its parts, and is depicted by a (graphic) mathematical expression.
+
+As the first team's R&D manager, I led the development of the installation <a href="https://www.emergencedelft.nl/about-us/newmediaproject" target="_blank"><i>"Unseen Echoes"</i></a> which was exhibited at the Highlight Delft festival in Feb. 2024. In this artwork, the invisibility of fake accounts on social media are related to the invisibility of infra-red light. 
 
 At Emergence Delft, I continue to be involved as the treasurer on the foundation’s board.
 

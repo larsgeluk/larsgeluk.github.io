@@ -24,13 +24,40 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
 
 More to come.. Work in progress.
 
+<div class="video-gallery-box">
+  <div class="video-gallery">
+    <div class="video-gallery__item">
+      <video controls>
+        <source src="/videos/EFR1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-gallery__item">
+      <video controls>
+        <source src="/videos/EFR2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
 
 
 
-<!-- <video controls width="100%">
-  <source src="/videos/EFR1_web.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> -->
+<div class="video-gallery-vertical-box">
+  <div class="video-gallery-vertical">
+    <div class="video-gallery-vertical__video">
+      <video controls>
+        <source src="/videos/EFR1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-gallery-vertical__gallery">
+      <div class="video-gallery-vertical__image">
+        <img src="/images/EFR/EFR1.png" loading="lazy" alt="Gallery image">
+      </div>
+      <div class="video-gallery-vertical__image">
+        <img src="/images/EFR/EFR3.png" loading="lazy" alt="Gallery image">
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- 
 ![iPad](/images/EFR/EFR1.png)
