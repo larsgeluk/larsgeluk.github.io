@@ -114,3 +114,17 @@
     line-height: 2;
   }
 }
+
+/* Full-width colored section for embedding any content */
+.full-width-section {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 40px 0;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+
+  > * {
+    flex-shrink: 0;
+  }
+}

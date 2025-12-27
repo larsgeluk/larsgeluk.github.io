@@ -13,13 +13,15 @@ layout: default
       <div class="page__description">{{ page.description }}</div>
       {% endif %}
     </div>
-  
+
+    
+    <div class="full-width-section" style="background-color: #000000; padding: 100px 0;"></div>
     {% if page.video_embed %}
-    <div class="page-video">
-      <div class="page-video__wrap">
-        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <div class="page-video">
+        <div class="page-video__wrap">
+          <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
       </div>
-    </div>
     {% else %}
     {%if page.image %}
     <div class="page-image">
@@ -27,6 +29,7 @@ layout: default
     </div>
     {% endif %}
     {% endif %}
+  </div>
   </div>
 
   <!-- begin page -->
