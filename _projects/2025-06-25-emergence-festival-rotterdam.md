@@ -26,7 +26,7 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
     <div class="video-gallery-vertical">
       <div class="video-gallery-vertical__gallery">
         <div class="gallery">
-          <img src="/images/EFR/EFR3.png" loading="lazy" alt="Project">
+          <img src="/images/EFR/EFR1.png" loading="lazy" alt="Project">
         </div>
       </div>
       <div class="video-gallery-vertical__video" style="aspect-ratio: 1 / 1;">
@@ -59,8 +59,9 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
       <div class="gallery">
         <img src="/images/EFR/EFR4.jpeg" loading="lazy" alt="Project">
       </div>
+      <div class="vertical-spacer"></div>
       <div class="gallery">
-        <img src="/images/EFR/EFR1.png" loading="lazy" alt="Project">
+        <img src="/images/EFR/EFR3.png" loading="lazy" alt="Project">
       </div>
     </div>
   </div>
