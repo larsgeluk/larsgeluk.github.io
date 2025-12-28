@@ -13,15 +13,30 @@ Your browser does not support the video tag.
 
 
 <section class="hero">
-  <video
-    autoplay
-    muted
-    id="home-video"
-    playsinline
-  >
-    <source src="{{ '/videos/larsgeluk_waves_web.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <div class="hero__video-wrapper">
+    <!-- Desktop video (hidden on mobile) -->
+    <video
+      autoplay
+      muted
+      id="home-video"
+      class="home-video--desktop"
+      playsinline
+    >
+      <source src="{{ '/videos/larsgeluk_waves_web.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- Mobile video (hidden on desktop) -->
+    <video
+      autoplay
+      muted
+      id="home-video-mobile"
+      class="home-video--mobile"
+      playsinline
+    >
+      <source src="{{ '/videos/vertihome1_2.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
   <div class="container">
     <div class="row">

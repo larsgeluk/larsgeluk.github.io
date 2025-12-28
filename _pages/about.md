@@ -29,6 +29,9 @@ At Emergence Delft, I continue to be involved as the treasurer on the foundation
 
 I’m always looking for new ways to bridge disciplines and spark dialogue, if you’re curious to collaborate or just have a chat, I’d love to connect.
 
+{% if site.data.settings.cta_button.enable == true %}
+<a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" class="button cta-button">{{ site.data.settings.cta_button.cta_button_text }}</a>
+{% endif %}
 
 <!-- 
 As a user experience strategist, I specialize in understanding the intricacies of user behavior and translating them into intuitive and enjoyable digital interfaces. My approach is rooted in empathy, ensuring that every design decision considers the end-user's perspective.
