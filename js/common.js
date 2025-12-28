@@ -260,9 +260,86 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
-
-
-
+  /* ============================
+  // Image Banner - Auto-fit height
+  ============================ */
+  function fitImageBanners() {
+    const banners = document.querySelectorAll('.image-banner');
+    const mobileBreakpoint = 768;
+    
+    banners.forEach(banner => {
+      const grid = banner.querySelector('.image-banner__grid');
+      const itemElements = banner.querySelectorAll('.image-banner__item');
+      const items = banner.querySelectorAll('.image-banner__item img');
+      
+      if (!grid || items.length === 0) return;
+      
+      // Wait for all images to load
+      const images = Array.from(items);
+      const loadPromises = images.map(img => {
+        if (img.complete) return Promise.resolve();
+        return new Promise(resolve => {
+          img.onload = resolve;
+          img.onerror = resolve;
+        });
+      });
+      
+      Promise.all(loadPromises).then(() => {
+        // Get aspect ratios (width/height) for each image
+        const aspectRatios = images.map(img => img.naturalWidth / img.naturalHeight);
+        
+        // Calculate available width
+        const containerWidth = banner.clientWidth;
+        const padding = parseFloat(getComputedStyle(banner).paddingLeft) + parseFloat(getComputedStyle(banner).paddingRight);
+        const isMobile = window.innerWidth <= mobileBreakpoint;
+        const gap = isMobile ? 10 : 20;
+        
+        if (isMobile && images.length > 1) {
+          // Split into two rows on mobile
+          const midpoint = Math.ceil(images.length / 2);
+          const row1Ratios = aspectRatios.slice(0, midpoint);
+          const row2Ratios = aspectRatios.slice(midpoint);
+          
+          const row1Gaps = (row1Ratios.length - 1) * gap;
+          const row2Gaps = (row2Ratios.length - 1) * gap;
+          const availableWidth = containerWidth - padding;
+          
+          const row1Sum = row1Ratios.reduce((sum, r) => sum + r, 0);
+          const row2Sum = row2Ratios.reduce((sum, r) => sum + r, 0);
+          
+          const row1Height = (availableWidth - row1Gaps) / row1Sum;
+          const row2Height = row2Ratios.length > 0 ? (availableWidth - row2Gaps) / row2Sum : 0;
+          
+          // Apply heights to individual items
+          itemElements.forEach((item, i) => {
+            if (i < midpoint) {
+              item.style.height = Math.floor(row1Height) + 'px';
+            } else {
+              item.style.height = Math.floor(row2Height) + 'px';
+            }
+          });
+          
+          grid.style.height = 'auto';
+        } else {
+          // Single row - original logic
+          const totalGaps = (images.length - 1) * gap;
+          const availableWidth = containerWidth - padding - totalGaps;
+          const sumAspectRatios = aspectRatios.reduce((sum, ratio) => sum + ratio, 0);
+          const optimalHeight = availableWidth / sumAspectRatios;
+          
+          // Reset individual item heights
+          itemElements.forEach(item => {
+            item.style.height = '100%';
+          });
+          
+          grid.style.height = Math.floor(optimalHeight) + 'px';
+        }
+      });
+    });
+  }
   
+  // Run on load and resize
+  fitImageBanners();
+  window.addEventListener('resize', fitImageBanners);
 
 });
