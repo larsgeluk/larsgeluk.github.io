@@ -116,12 +116,23 @@
     }
   }
 
+  // No border-radius on video-banner images
+  .video-banner img,
+  .video-banner__background img {
+    border-radius: 0;
+  }
+
   @media (max-width: $tablet) {
     margin: 0 auto 80px;
 
     img,
     .js-reframe {
       border-radius: 16px;
+    }
+
+    .video-banner img,
+    .video-banner__background img {
+      border-radius: 0;
     }
   }
 }
