@@ -43,3 +43,5 @@ Retinal Rhythms is a composition of the discussed elements; RGB, afterimages an
   </div>
 </div>
 
+
+

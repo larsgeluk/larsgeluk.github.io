@@ -149,6 +149,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     splideInstance.mount();
 
+    // Function to pause all YouTube videos in the carousel
+    function pauseYouTubeVideos() {
+      var iframes = carousel.querySelectorAll('iframe');
+      iframes.forEach(function (iframe) {
+        if (iframe.src.includes('youtube')) {
+          iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
+      });
+    }
+
+    // Pause videos when slide changes
+    splideInstance.on('move', function () {
+      pauseYouTubeVideos();
+    });
+
     // Connect custom navigation buttons
     var container = carousel.closest('.fullwidth-carousel');
     if (container) {

@@ -46,12 +46,6 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
 <div style="height: 16px;"></div> 
  
 
-
-<!-- <div class="full-width-section" style="background-color: black; padding: 0;">
-  <div style="margin-top: -20px;">
-    <iframe src="..." ...></iframe>
-  </div>
-</div> -->
 <div class="full-width-section" style="background-color: black; padding: 0;">
 
 <div class="video-gallery-vertical-box">
@@ -74,6 +68,36 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
 </div>
 </div>
 
-<!-- 
-![iPad](/images/EFR/EFR1.png)
-*Photo by [Balázs Kétyi](https://unsplash.com/@balazsketyi) on [Unsplash](https://unsplash.com/)* -->
+<div style="height: 40px;"></div> 
+
+
+<div class="fullwidth-carousel">
+  <div class="fullwidth-carousel__container">
+    <button class="fullwidth-carousel__nav fullwidth-carousel__nav--prev" aria-label="Previous slide">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div class="fullwidth-carousel__slider splide">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="splide__slide">
+            <div class="fullwidth-carousel__item">
+              <div class="video-banner__youtube">
+                <iframe src="https://www.youtube-nocookie.com/embed/J7dT1UAZwOE?enablejsapi=1" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="fullwidth-carousel__item">
+              <div class="video-banner__youtube">
+                <iframe src="https://www.youtube-nocookie.com/embed/GqyfRihLH94?enablejsapi=1" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="fullwidth-carousel__nav fullwidth-carousel__nav--next" aria-label="Next slide">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+</div>
