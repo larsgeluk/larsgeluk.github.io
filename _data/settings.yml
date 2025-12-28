@@ -208,7 +208,7 @@ mailchimp:
 #-------------------------------
 # Contact Settings
 contact:
-  email: https://formspree.io/f/xqaylbog # Add your form_id
+  email: xqaylbog # Add your form_id
   description: I’m always looking for new ways to bridge disciplines and spark dialogue, if you’re curious to collaborate or just have a chat, I’d love to connect. # Add a description of your form
 
 # NOTE
