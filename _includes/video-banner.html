@@ -1,0 +1,22 @@
+{% comment %}
+Video Banner Component
+Usage: {% include video-banner.html background="/images/bg.jpg" video="/videos/video.mp4" height="500px" %}
+Parameters:
+  - background: path to background image (required)
+  - video: path to video file (required)
+  - height: banner height, default is 60vh (optional)
+{% endcomment %}
+
+{% assign banner_height = include.height | default: "60vh" %}
+
+<div class="video-banner" style="height: {{ banner_height }};">
+  <div class="video-banner__background">
+    <img src="{{ include.background | relative_url }}" alt="Banner background">
+  </div>
+  <div class="video-banner__content">
+    <video class="video-banner__video" controls playsinline>
+      <source src="{{ include.video | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
