@@ -17,7 +17,7 @@ Ode to the FFT x Semiosis is an immersive installation that dives into the world
       </div>
     </div>
     <div class="video-gallery-vertical__video" style="aspect-ratio: 1 / 1;">
-      <video controls>
+      <video controls autoplay muted loop playsinline>
         <source src="/videos/EFR2_2.mp4" type="video/mp4">
       </video>
     </div>
@@ -57,7 +57,7 @@ The projections are an iteration of “Ode to the Fast Fourier Transform”, an 
 <div class="video-gallery-vertical-box">
   <div class="video-gallery-vertical">
     <div class="video-gallery-vertical__video">
-      <video controls>
+      <video controls autoplay muted loop playsinline>
         <source src="/videos/EFR1.mp4" type="video/mp4">
       </video>
     </div>

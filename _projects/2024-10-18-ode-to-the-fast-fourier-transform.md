@@ -38,7 +38,7 @@ For the KunstParade exhibition at Museum Prinsenhof Delft I created a diptych, 
       </div>
     </div>
     <div class="video-gallery-vertical__video" style="aspect-ratio: 1 / 1;">
-      <video controls>
+      <video controls autoplay muted loop playsinline>
         <source src="/videos/kunstparade/ODETOTHEFFT_Promo2.mp4" type="video/mp4">
       </video>
     </div>
@@ -61,7 +61,7 @@ For the KunstParade exhibition at Museum Prinsenhof Delft I created a diptych, 
         <div class="splide__list">
           <div class="splide__slide">
             <div class="fullwidth-carousel__item">
-              <video controls>
+              <video controls autoplay muted loop playsinline>
                 <source src="/videos/kunstparade/ODETOTHEFFT_Promo1_sidebyside.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -69,7 +69,7 @@ For the KunstParade exhibition at Museum Prinsenhof Delft I created a diptych, 
           </div>
           <div class="splide__slide">
             <div class="fullwidth-carousel__item">
-              <video controls>
+              <video controls autoplay muted loop playsinline>
                 <source src="/videos/kunstparade/ODETOTHEFFT_Promo3_sidebyside.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
