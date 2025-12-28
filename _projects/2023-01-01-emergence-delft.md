@@ -18,9 +18,23 @@ As the first team's R&D manager, I led the development of the installation <a hr
 
 At Emergence Delft, I continue to be involved as the treasurer on the foundation’s board.
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/emergence_delft/Dreamhall_Management_3.png" loading="lazy" alt="Project">
+
+
+<div class="image-banner">
+  <div class="image-banner__grid">
+    <div class="image-banner__item">
+      <img src="/images/emergence_delft/Dreamhall_Management_3.png" loading="lazy" alt="Project">
+    </div>
+    <div class="image-banner__item">
+      <img src="{{ '/images/emergence_delft/ThisIsTeamEMergence1.jpg' | relative_url }}" alt="Team Emergence 1">
+    </div>
   </div>
 </div>
 
+<div class="image-banner">
+  <div class="image-banner__grid">
+    <div class="image-banner__item">
+      <img src="{{ '/images/emergence_delft/presentation.jpg' | relative_url }}" alt="Presentation">
+    </div>
+  </div>
+</div>

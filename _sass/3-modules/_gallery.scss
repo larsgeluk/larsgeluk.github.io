@@ -5,6 +5,20 @@
   @media (max-width: $desktop) {
     margin: 32px 0;
   }
+
+  // Full width variant
+  &--fullwidth {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    @media (max-width: $mobile) {
+      padding: 0 10px;
+    }
+  }
 }
 
 .gallery {
