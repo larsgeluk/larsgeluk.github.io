@@ -1,0 +1,158 @@
+/* =======================
+   Full-width Media Carousel
+   - Maximum width, no title
+   - Navigation buttons vertically centered
+   - Fading transition between slides
+======================= */
+
+.fullwidth-carousel {
+  position: relative;
+  width: 100vw;
+  margin: 32px 0;
+  margin-left: calc(-50vw + 50%);
+
+  // Outer container extends to full width
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  // Splide wrapper - full screen width
+  &__slider {
+    width: 100%;
+    position: relative;
+  }
+
+  // Navigation buttons - vertically centered, inside content
+  &__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    transition: $global-transition;
+    opacity: 0.8;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      opacity: 1;
+    }
+
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    &--prev {
+      left: 24px;
+
+      @media (max-width: $tablet) {
+        left: 12px;
+      }
+    }
+
+    &--next {
+      right: 24px;
+
+      @media (max-width: $tablet) {
+        right: 12px;
+      }
+    }
+
+    @media (max-width: $tablet) {
+      width: 40px;
+      height: 40px;
+    }
+
+    i {
+      font-size: 16px;
+    }
+  }
+
+  // Splide track and slides - fade effect handled by splide type: 'fade'
+  .splide__track {
+    overflow: hidden;
+  }
+
+  .splide__list {
+    display: flex;
+  }
+
+  .splide__slide {
+    width: 100%;
+    flex-shrink: 0;
+
+    // Fade effect - slides stack on top of each other
+    &.is-visible {
+      opacity: 1;
+    }
+  }
+
+  // Media items
+  &__item {
+    width: 100%;
+
+    video,
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  // Hide default splide arrows (we use custom ones)
+  .splide__arrows {
+    display: none;
+  }
+
+  // Hide pagination
+  .splide__pagination {
+    display: none;
+  }
+}
+
+// Alternative: Buttons inside the container (for mobile-first)
+.fullwidth-carousel--buttons-inside {
+  .fullwidth-carousel__slider {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .fullwidth-carousel__nav {
+    &--prev {
+      left: 16px;
+    }
+
+    &--next {
+      right: 16px;
+    }
+  }
+}
+
+// Dark overlay variant for buttons
+.fullwidth-carousel--dark-buttons {
+  .fullwidth-carousel__nav {
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: #fff;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+    }
+  }
+}

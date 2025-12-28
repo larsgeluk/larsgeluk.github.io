@@ -20,7 +20,7 @@ The impact of the FFT has been immense. It has enabled the development of a wide
 
 I am interested in how the FFT unveils hidden harmonies. How this tool offers us a new way to perceive, changing our perspective on the raw data of our world. How it mediates between two different realms, uncovering some of their secrets and symmetries. The FFT ignites my imagination both scientifically and artistically. This is why, in homage to this tool, I have created this work. For which I developed a fading algorithm that leverages the power of the FFT to blend pictures and their Fourier Transforms. I use it to explore new ways of artistic expression to make the hidden and complex digital world around us visible. ​
 
-For the KunstParade exhibition at Museum Prinsenhof Delft I created a diptych, on view from 18 Oktober 2024 untill 5 January 2025. The result is a contemporary interpretation of stained glass windows in which form and color merge and evaporate in waves. This work was commissioned following the presentation of an earlier version at the Blikopener Museumnacht event at Museum Prinsenhof Delft on May 9, 2023. The exhibition was curated and organized by students, for students.
+For the KunstParade exhibition at Museum Prinsenhof Delft I created a diptych, on view from 18 Oktober 2024 untill 5 January 2025. The result is a contemporary interpretation of stained glass windows in which form and color merge and evaporate in waves. This work was commissioned following the presentation of an earlier version at the Blikopener Museumnacht event at Museum Prinsenhof Delft on May 9, 2023. The latter exhibition was curated and organized by students, for students.
 
 
 <!-- <div class="video-box" style="width: 70%; margin-left: auto; margin-right: auto;">
@@ -48,25 +48,42 @@ For the KunstParade exhibition at Museum Prinsenhof Delft I created a diptych, 
 
 <div style="height: 16px;"></div> 
 
-<div class="full-width-section" style="background-color: black; padding: 0;">
 
-<div class="video-box">
-  <video controls>
-    <source src="/videos/kunstparade/ODETOTHEFFT_Promo1_sidebyside.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+
+
+<div class="fullwidth-carousel">
+  <div class="fullwidth-carousel__container">
+    <button class="fullwidth-carousel__nav fullwidth-carousel__nav--prev" aria-label="Previous slide">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div class="fullwidth-carousel__slider splide">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="splide__slide">
+            <div class="fullwidth-carousel__item">
+              <video controls>
+                <source src="/videos/kunstparade/ODETOTHEFFT_Promo1_sidebyside.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="fullwidth-carousel__item">
+              <video controls>
+                <source src="/videos/kunstparade/ODETOTHEFFT_Promo3_sidebyside.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="fullwidth-carousel__nav fullwidth-carousel__nav--next" aria-label="Next slide">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
 </div>
 
-<div class="full-width-section" style="background-color: black; padding: 0;">
-<div class="video-box">
-  <video controls>
-    <source src="/videos/kunstparade/ODETOTHEFFT_Promo3_sidebyside.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-</div>
 <!-- 
 <div class="video-gallery-box">
   <div class="video-gallery">

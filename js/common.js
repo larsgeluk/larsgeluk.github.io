@@ -117,6 +117,59 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
+  /* ============================
+  // Media Carousel Slider
+  ============================ */
+  var mediaCarousel = document.querySelector('.media__slider__inner.splide');
+  if (mediaCarousel) {
+    new Splide(mediaCarousel, {
+      type: 'fade',
+      perPage: 1,
+      arrows: true,
+      pagination: false,
+      gap: '0',
+      speed: 800, // smoother fade
+    }).mount();
+  }
+
+
+  /* ============================
+  // Full-width Media Carousel (fade transition, custom nav)
+  ============================ */
+  document.querySelectorAll('.fullwidth-carousel__slider.splide').forEach(function (carousel) {
+    var splideInstance = new Splide(carousel, {
+      type: 'fade',
+      rewind: true,
+      perPage: 1,
+      arrows: false, // We use custom arrows
+      pagination: false,
+      speed: 600,
+      easing: 'ease-in-out',
+    });
+
+    splideInstance.mount();
+
+    // Connect custom navigation buttons
+    var container = carousel.closest('.fullwidth-carousel');
+    if (container) {
+      var prevBtn = container.querySelector('.fullwidth-carousel__nav--prev');
+      var nextBtn = container.querySelector('.fullwidth-carousel__nav--next');
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', function () {
+          splideInstance.go('<');
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', function () {
+          splideInstance.go('>');
+        });
+      }
+    }
+  });
+
+
   /* ================================================================
   // Stop Animations During Window Resizing and Switching Theme Modes
   ================================================================ */
