@@ -27,7 +27,7 @@ At Emergence Delft, I continue to be involved as the treasurer on the foundation
     </div>
     <div class="image-banner__item">
       <img src="{{ '/images/emergence_delft/ThisIsTeamEMergence1.jpg' | relative_url }}" alt="Team Emergence 1">
-    </di
+    </div>
   </div>
 </div>
 
