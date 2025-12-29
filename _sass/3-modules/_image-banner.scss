@@ -4,9 +4,14 @@
   position: relative;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  padding: 40px 20px;
+  padding: 10px 20px;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+/* Ensure consecutive image banners have consistent vertical spacing matching horizontal gap */
+.image-banner + .image-banner {
+  padding-top: 10px;
 }
 
 .image-banner__grid {
@@ -34,7 +39,11 @@
 
 @media (max-width: $tablet) {
   .image-banner {
-    padding: 30px 15px;
+    padding: 5px 15px;
+  }
+
+  .image-banner + .image-banner {
+    padding-top: 5px;
   }
 
   .image-banner__grid {
@@ -45,7 +54,11 @@
 
 @media (max-width: $mobile) {
   .image-banner {
-    padding: 20px 10px;
+    padding: 5px 10px;
+  }
+
+  .image-banner + .image-banner {
+    padding-top: 5px;
   }
 
   .image-banner__grid {

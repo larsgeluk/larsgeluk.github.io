@@ -35,7 +35,7 @@ Retinal Rhythms is a composition of the discussed elements; RGB, afterimages an
 
 <div style="height: 40px;"></div> 
 
-<div class="video-banner video-banner--fullwidth">
+<div class="video-banner video-banner--fullwidth" style="background-color: black; padding: 40px 0;">
   <div class="video-banner__content">
     <div class="video-banner__youtube">
       <iframe src="https://www.youtube.com/embed/KNVETW8caQc" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

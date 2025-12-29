@@ -51,7 +51,7 @@ For the KunstParade exhibition at Museum Prinsenhof Delft I created a diptych, 
 
 
 
-<div class="fullwidth-carousel">
+<div class="fullwidth-carousel" style="background-color: black; padding: 40px 0;">
   <div class="fullwidth-carousel__container">
     <button class="fullwidth-carousel__nav fullwidth-carousel__nav--prev" aria-label="Previous slide">
       <i class="fa-solid fa-chevron-left"></i>
