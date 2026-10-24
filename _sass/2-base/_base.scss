@@ -252,3 +252,18 @@ table td {
 .lightense-backdrop {
   background-color: var(--background-color) !important;
 }
+
+// Ensure Lightense zoomed images render above the backdrop in sliders/carousels.
+.lightense-wrap {
+  z-index: 1000001 !important;
+}
+
+img.lightense-open,
+.fullwidth-carousel img.lightense-open {
+  position: relative !important;
+  z-index: 1000002 !important;
+}
+
+.lightense-backdrop {
+  z-index: 1000000 !important;
+}

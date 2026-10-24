@@ -156,3 +156,136 @@
     }
   }
 }
+
+.fullwidth-carousel--fit-screen {
+  .fullwidth-carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fullwidth-carousel__item img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: calc(100vh - 80px);
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+.image-banner--carousel {
+  overflow: visible;
+
+  .image-banner__grid {
+    align-items: stretch;
+  }
+
+  .image-banner__item--carousel {
+    flex: 1 1 calc(50% - 10px);
+    width: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    overflow: visible;
+
+    @media (max-width: $tablet) {
+      flex: 1 1 100%;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .fullwidth-carousel {
+    width: 100%;
+    margin: 0;
+    margin-left: 0;
+  }
+}
+
+.fullwidth-carousel--gallery {
+  width: 100%;
+  margin: 0;
+  margin-left: 0;
+  border-radius: 22px;
+  overflow: visible;
+  background: var(--background-color);
+
+  @media (max-width: $desktop) {
+    border-radius: 16px;
+  }
+
+  .fullwidth-carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+  }
+
+  .fullwidth-carousel__item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: none;
+    cursor: zoom-in;
+    pointer-events: auto;
+    border-radius: 22px;
+
+    @media (max-width: $desktop) {
+      border-radius: 16px;
+    }
+  }
+
+  .fullwidth-carousel__nav {
+    &--prev {
+      left: 12px;
+    }
+
+    &--next {
+      right: 12px;
+    }
+  }
+
+  .splide__track {
+    overflow: visible;
+  }
+}
+
+.video-gallery-vertical {
+  .video-gallery-vertical__carousel {
+    width: 100%;
+    border-radius: 22px;
+    overflow: visible;
+    background: var(--background-color);
+
+    @media (max-width: $desktop) {
+      border-radius: 16px;
+    }
+  }
+
+  .fullwidth-carousel--gallery {
+    border-radius: 0;
+
+    .splide__slide {
+      display: flex;
+      align-items: center;
+    }
+
+    .fullwidth-carousel__item {
+      width: 100%;
+      height: 100%;
+    }
+
+    .fullwidth-carousel__item img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      cursor: default;
+    }
+
+    .fullwidth-carousel__item video {
+      width: auto;
+      max-width: 100%;
+      max-height: 100%;
+      margin: 0 auto;
+    }
+  }
+}

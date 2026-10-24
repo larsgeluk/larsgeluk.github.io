@@ -226,8 +226,8 @@ document.addEventListener("DOMContentLoaded", function () {
   /* =======================
   // Zoom Image
   ======================= */
-  const lightense = document.querySelector(".page__content img, .post__content img, .project-content img, .gallery__image img, .video-gallery-vertical__image img"),
-    imageLink = document.querySelectorAll(".page__content a img, .post__content a img, .project-content a img, .gallery__image a img, .video-gallery-vertical__image a img");
+  const lightense = document.querySelector(".page__content img, .post__content img, .project-content img, .gallery__image img, .video-gallery-vertical__image img, .fullwidth-carousel__item img"),
+    imageLink = document.querySelectorAll(".page__content a img, .post__content a img, .project-content a img, .gallery__image a img, .video-gallery-vertical__image a img, .fullwidth-carousel__item a img");
 
   if (imageLink) {
     for (var i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   if (lightense) {
-    Lightense(".page__content img:not(.no-lightense), .post__content img:not(.no-lightense), .project-content img:not(.no-lightense), .gallery__image img:not(.no-lightense), .video-gallery-vertical__image img:not(.no-lightense)", {
+    Lightense(".page__content img:not(.no-lightense), .post__content img:not(.no-lightense), .project-content img:not(.no-lightense), .gallery__image img:not(.no-lightense), .video-gallery-vertical__image img:not(.no-lightense), .fullwidth-carousel__item img:not(.no-lightense)", {
       padding: 60,
       offset: 30
     });
